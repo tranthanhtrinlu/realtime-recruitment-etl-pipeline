@@ -1,0 +1,71 @@
+
+---
+
+## `.gitignore`
+
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Airflow
+airflow_home/
+airflow/logs/
+airflow/logs/**
+airflow/*.db
+airflow/airflow.cfg
+airflow/webserver_config.py
+
+# PySpark / Spark temp
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Checkpoints / runtime temp
+checkpoints/
+tmp/
+*.log
+*.out
+*.err
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+.history/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Build / cache
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# Docker
+docker-compose.override.yml
+
+# Local data exports or accidental generated files
+*.csv~
+*.bak
+*.tmp
+
+# Byte-compiled / optimized / DLL files
+*.so
+
+# Optional: uncomment if you do NOT want to push raw sample data
+# data/cassandra/*.csv
+# data/mysql/*.csv
