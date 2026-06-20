@@ -117,7 +117,7 @@ This project was built as a portfolio-ready Data Engineering project to demonstr
 
 ## Project Structure
 
-```text
+text
 ETL_DOCKER_CACH3/
 ├─ airflow/
 │  └─ dags/
