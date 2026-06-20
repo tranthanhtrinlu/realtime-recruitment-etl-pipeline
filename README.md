@@ -117,7 +117,7 @@ This project was built as a portfolio-ready Data Engineering project to demonstr
 
 ## Project Structure
 
-text
+```text
 ETL_DOCKER_CACH3/
 ├─ airflow/
 │  └─ dags/
@@ -161,7 +161,7 @@ ETL_DOCKER_CACH3/
 ├─ README.md
 ├─ LICENSE
 └─ .gitignore
-
+```
 Main Components
 1. Kafka
 
